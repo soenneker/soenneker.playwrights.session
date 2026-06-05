@@ -22,6 +22,10 @@ public sealed class BrowserSession : IBrowserSession
         _ownsPage = ownsPage;
     }
 
+    /// <summary>
+    /// Asynchronously releases resources used by the current instance.
+    /// </summary>
+    /// <returns>A task that represents the asynchronous operation.</returns>
     public async ValueTask DisposeAsync()
     {
         if (_ownsPage && !Page.IsClosed)
