@@ -41,6 +41,6 @@
     </ItemGroup>
 
     <ItemGroup>
-        <PackageReference Include="Microsoft.Playwright" Version="1.60.0" />
+        <PackageReference Include="Microsoft.Playwright" Version="1.61.0" />
     </ItemGroup>
 </Project>
