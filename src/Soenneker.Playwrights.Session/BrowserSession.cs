@@ -4,7 +4,7 @@ using Soenneker.Playwrights.Session.Abstract;
 
 namespace Soenneker.Playwrights.Session;
 
-///<inheritdoc cref="IBrowserSession"/>
+/// <inheritdoc cref="IBrowserSession"/>
 public sealed class BrowserSession : IBrowserSession
 {
     private readonly bool _ownsContext;
