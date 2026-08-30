@@ -5,7 +5,7 @@ namespace Soenneker.Playwrights.Session.Abstract;
 
 /// <summary>
 /// Represents a Playwright browser session, including a browser context and an active page,
-/// with support for asynchronous disposal.
+/// with ownership-aware asynchronous disposal.
 /// </summary>
 public interface IBrowserSession : IAsyncDisposable
 {
